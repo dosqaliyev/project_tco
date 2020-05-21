@@ -1,0 +1,101 @@
+body {
+	margin:0px;
+	padding: 0;
+	font-family: sans-serif;
+}
+ 
+.container {
+	max-width: 962px;
+	margin: 0px auto;
+}
+
+/*========================================================*/
+/* header */
+.header {
+	background: #848484;
+	height: 70px;
+}
+
+.logo {
+	background-image: url(data:image/webp;base64,UklGRowCAABXRUJQVlA4TIACAAAvJYAJEFeloG0jx/xJ/+gNCvM//wzbtg2bqyS3myK3bRv4ltEy38A5A8EWmHoCYCMhCAACAKEYwoit1DEUHcIAViT4316hQYCLfdcAzw2BDnlH7Rbc7BUJatoPWawAEiVJNm2rrm2bz9d4tm3btm3bftfs39wze5/3BxH9nwDCFy45cvN1T8/rm0eWFBLrhKV3xhRy7M7ShJjMfKPIb2ZFK7ihmN4siNDwUcG+l1H0sSFUW4+Ce1PZG0U97SFqexTcBZyIpJ5aJ+etzHxoGImmd7nWBZnDcXBXsbxgtMstpVGxbQfiHju/k8n/GurX+pV/jSdxMFf2UCtQ8ynEt3o4KfUvOqJ5cMVZSXDCmLcAsn5Kq5mqy2QMWqPpBqecvkRYL91MYLMGM2bLfoXd7AymkvFXp9JoHJbm7HFuO3GfLbVSfGM+FH+StOeqc85hq/U7n2DGU0m68sI54OXdlzR+sZJg/BUFX3x31npQ1d5SiL1Z5o8RZ0qYsNUj1shv6198iKqaeG+57C/vrYf4h6R/2xKsJc6zK9Ytb7KCp60ZzpWt1ktvlaFpRqWzqcsay3T2WtuNuB9WU0qvoQ7nhHXVYJ/Rk8gRa41z0fpgdRoHYZK127lkjSUbSb8ljdcCF41j0LkKuGypDlonwhZJZwBK/gROw65nwEVnOtz7W0ZRnwbqAywMXIRrIwlw3lkBH3US1mkF9nlJR+G+yuGsswPea6yC5G1xTu49aR08VxOcck7DHWkrodOuaj480kw45DyAw9KzcCSdqIHrWgg7nbewUtofgTjgsBbDWucrlP9eFhcluFyzoNv5BMQR0+yN+ZD83Rhdxn9uOHh8z4bZpUQE);
+	width: 38px;
+	height: 39px;
+	float: left;
+	margin-top: 15px;
+}
+
+.header_menu {
+	overflow: auto;
+}
+
+.lil {
+	list-style-type: none;
+	float: left;
+	margin-right: 25px; 
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+.lil_a {
+	text-decoration: none;
+	color: white;
+}
+
+.lil_a:hover {
+	color: red;
+}
+
+/*=========================================================*/
+/* subtitle */
+.subtitle{
+
+}
+
+.wrapper_search {
+	overflow: auto;
+	height: 70px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.shop_button {
+	background-color: #F5F5F5;
+	width: 100PX; 
+	height: 35px;
+	border: solid #E5E5E5 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+
+.search {
+	float: left;
+}
+
+.search_input {
+	width: 500px;
+	height: 33px;
+	border: solid #E5E5E5 1px;
+	border-left: 0px;
+}
+
+.search_button {
+	background-color: #0089D0;
+	width: 45px;
+	height: 37px;
+	float: left;
+}
+
+.shop_button_a {
+	color: #0089D0;
+	text-decoration: none;
+
+}
+
+.content {
+	background-color: gray;
+	width: 100%;
+	height: 600px;
+}
